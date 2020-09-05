@@ -1,0 +1,62 @@
+body {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.top {
+  background: linear-gradient(-29deg, #fecd1b 50%, #A1D05C 50%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.title-logo {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Cambria";
+  padding-top: 50px;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 35px;
+  font-family: 'Caveat', cursive;
+  letter-spacing: 5px;
+}
+
+ul.left-menu {
+  display: flex;
+  float: left;
+}
+
+ul.right-menu {
+  display: flex;
+  float: right;
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+
+.text {
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: 3px;
+}
+
+.text h2 {
+  margin-top: 200px;
+}
+
+.text p {
+  padding-bottom: 95px;
+}
