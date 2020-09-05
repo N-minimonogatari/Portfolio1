@@ -90,9 +90,12 @@ ul.right-menu {
     font-size: 17px;
   }
   ul li a {
-    font-size: 8px;
+    font-size: 13px;
     width: 100%;
     margin-right: 7px;
+  }
+  ul.right-menu {
+    margin-right: 3px;
   }
   .header-center p {
     font-size: 17px;

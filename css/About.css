@@ -11,8 +11,6 @@ html {
 
 .top {
   background: linear-gradient(-30.3deg, #fecd1b 50%, #A1D05C 50%);
-  min-height: 100%;
-  height: 100%;
 }
 
 * {
