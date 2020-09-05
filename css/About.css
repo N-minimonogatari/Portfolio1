@@ -4,8 +4,15 @@ body {
   padding-right: 10px;
 }
 
+body,
+html {
+  height: 100%;
+}
+
 .top {
-  background: linear-gradient(-29deg, #fecd1b 50%, #A1D05C 50%);
+  background: linear-gradient(-30.3deg, #fecd1b 50%, #A1D05C 50%);
+  min-height: 100%;
+  height: 100%;
 }
 
 * {
@@ -59,4 +66,23 @@ ul.right-menu {
 
 .text p {
   padding-bottom: 95px;
+}
+
+@media screen and (max-width: 479px) {
+  .title-logo {
+    font-size: 30px;
+  }
+  ul li a {
+    padding-top: 30px;
+    font-size: 15px;
+    width: 100%;
+    margin-right: 30px;
+  }
+  .text h2 {
+    margin-top: 140px;
+    width: 100%;
+  }
+  .text p {
+    padding-bottom: 30px;
+  }
 }

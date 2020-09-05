@@ -71,3 +71,36 @@ ul.right-menu {
   right: 0%;
   font-family: "Cambria";
 }
+
+
+@media screen and (max-width: 767px) {
+  .title-logo {
+    font-size: 30px;
+  }
+  ul li a {
+    font-size: 15px;
+  }
+  .header-center p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .title-logo {
+    font-size: 17px;
+  }
+  ul li a {
+    font-size: 8px;
+    width: 100%;
+    margin-right: 7px;
+  }
+  .header-center p {
+    font-size: 17px;
+  }
+  .header-left p {
+    font-size: 8px;
+  }
+  .header-right p {
+    font-size: 8px;
+  }
+}

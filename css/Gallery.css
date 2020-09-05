@@ -2,6 +2,11 @@ body {
   background: linear-gradient(-90deg, white 50%, #FF8A16 50%);
 }
 
+body,
+html {
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -140,4 +145,52 @@ ul.right-menu {
 
 a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-show img {
+    width: 85%;
+  }
+  .slide-show p {
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+  .right-show img {
+    width: 85%;
+    padding-top: 420px;
+  }
+  .right-show p {
+    padding-right: 50px;
+    padding-top: 320px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .title-logo {
+    font-size: 30px;
+  }
+  ul li a {
+    padding-top: 10px;
+    font-size: 15px;
+    width: 100%;
+    margin-right: 30px;
+  }
+  .slide-show img {
+    width: 100%;
+    padding-left: 1px;
+  }
+  .slide-show p {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  .right-show img {
+    width: 100%;
+    padding-right: 1px;
+    padding-top: 300px;
+  }
+  .right-show p {
+    padding-right: 10px;
+    font-size: 15px;
+    padding-top: 250px;
+  }
 }
