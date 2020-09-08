@@ -137,14 +137,60 @@ ul.right-menu {
   float: right;
   font-size: 30px;
   font-family: 'Shadows Into Light', cursive;
-}
-
-.right-show a {
   color: #FF8A16;
 }
 
-a {
-    text-decoration: none;
+ここから
+.left-show {
+  position: relative;
+}
+
+.left-show img {
+  width: 45%;
+  animation: show 9s infinite;
+  height: auto;
+  opacity: 0;
+  position: absolute;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
+
+@keyframes show {
+  0% {opacity: 0}
+  17% {opacity: 1}
+  33% {opacity: 1}
+  50% {opacity: 0}
+}
+
+.left-show img:nth-of-type(1) {
+  animation-delay: 0s;
+}
+
+.left-show img:nth-of-type(2) {
+  animation-delay: 3s;
+}
+
+.left-show img:nth-of-type(3) {
+  animation-delay: 6s;
+}
+
+.left-show img:nth-of-type(4) {
+  animation-delay: 9s;
+}
+
+.left-show img:nth-of-type(5) {
+  animation-delay: 12s;
+}
+
+.left-show p {
+  padding-left: 200px;
+  padding-top: 500px;
+  font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.left-show a {
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -192,5 +238,15 @@ a {
     padding-right: 10px;
     font-size: 15px;
     padding-top: 250px;
+  }
+  .left-show img {
+    padding-top: 30px;
+    width: 95%;
+    padding-left: 1px;
+  }
+  .left-show p {
+    padding-top: 550px;
+    font-size: 15px;
+    padding-left: 30px;
   }
 }
