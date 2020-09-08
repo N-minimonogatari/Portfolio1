@@ -140,7 +140,6 @@ ul.right-menu {
   color: #FF8A16;
 }
 
-ここから
 .left-show {
   position: relative;
 }
@@ -208,6 +207,13 @@ ul.right-menu {
   .right-show p {
     padding-right: 50px;
     padding-top: 320px;
+  }
+  .left-show img {
+    width: 85%;
+  }
+  .left-show p {
+    padding-top: 800px;
+    padding-left: 50px;
   }
 }
 
